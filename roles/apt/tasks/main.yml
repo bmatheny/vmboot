@@ -1,6 +1,6 @@
 ---
 - name: add universe
-  cmd: apt-add-repository -y universe
+  ansible.builtin.command: apt-add-repository -y universe
   
 - name: "install packages"
   apt:
