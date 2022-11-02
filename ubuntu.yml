@@ -5,5 +5,8 @@
   vars:
     packages:
       - git
+      - freeipa-client
+      - tree
+      - mosh
   roles:
     - apt
